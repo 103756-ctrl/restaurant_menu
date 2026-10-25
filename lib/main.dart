@@ -7,7 +7,7 @@ void main() {
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
-  // This widget is the root of your application.
+  // This widget is the root of my application.
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -36,7 +36,7 @@ class MyApp extends StatelessWidget {
   }
 }
 
-// This widget is the home page of your application.
+// This widget is the home page of my application.
 class MyHomePage extends StatelessWidget {
   MyHomePage({super.key});
 
@@ -194,7 +194,7 @@ class MyHomePage extends StatelessWidget {
   }
 }
 
-// Extra Task: Navigation Detail Screen
+//  Navigation Detail Screen
 class FoodDetailScreen extends StatelessWidget {
   final String foodName;
   final String imagePath;
